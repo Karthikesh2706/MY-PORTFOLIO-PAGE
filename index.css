@@ -1,0 +1,113 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+h1{
+    color:gold;
+}
+ h2, h3 {
+    color: #333;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: aqua;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* Image Styles */
+.img-container {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.round-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* About Me Section */
+.about-text {
+    width: 70%;
+    margin: 20px auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #f1f1f1;
+    padding: 40px 20px;
+}
+
+#skills ul {
+    list-style: none;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#skills ul li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+progress {
+    width: 100%;
+    height: 20px;
+    margin-left: 10px;
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+progress[value]::-webkit-progress-value {
+    background-color: #4caf50;
+    border-radius: 10px;
+}
+
+progress[value]::-moz-progress-bar {
+    background-color: #4caf50;
+    border-radius: 10px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 40px;
+}
